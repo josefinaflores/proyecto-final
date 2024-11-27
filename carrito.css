@@ -1,0 +1,55 @@
+body{
+    background-color: #e2cfeb;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /* Elimina el espacio entre los bordes de las celdas */
+}
+
+th{
+    text-align: left;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+
+header {
+    background-color: #9764c7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+#ulmenu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ulmenu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#ulmenu a {
+    color: white;
+    text-decoration: none;
+}
+
+#ulmenu a:hover {
+    text-decoration: underline;
+}

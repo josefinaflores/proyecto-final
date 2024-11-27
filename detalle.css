@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2cfeb;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #9764c7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+#ulmenu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#ulmenu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+#ulmenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ulmenu a:hover {
+    color: #FFD700; /* Color dorado cuando se pasa el mouse */
+}
+
+
+/* Contenedor principal del producto */
+#boxprducto {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen del producto */
+#boxprducto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Título y precio */
+#boxprducto h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#boxprducto p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #9764c7;
+    margin-bottom: 20px;
+}
+
+/* Contador de productos */
+#contar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+
+#contarproducto {
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+}
+
+/* Botón para agregar al carrito */
+#boxprducto button {
+    display: inline-block;
+    background-color: #d9a6f0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boxprducto button:hover {
+    background-color: #782188;
+}
